@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@import "tailwindcss-safe-area";
+
+@theme {
+  --text-xs: 12px;
+  --text-xs--line-height: 16px;
+  --text-sm: 14px;
+  --text-sm--line-height: 20px;
+  --text-base: 16px;
+  --text-base--line-height: 24px;
+  --text-lg: 18px;
+  --text-lg--line-height: 28px;
+  --text-xl: 20px;
+  --text-xl--line-height: 28px;
+  --text-2xl: 24px;
+  --text-2xl--line-height: 32px;
+  --text-3xl: 30px;
+  --text-3xl--line-height: 36px;
+  --text-4xl: 36px;
+  --text-4xl--line-height: 40px;
+  --text-5xl: 48px;
+  --text-5xl--line-height: 52px;
+  --font-sans: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Solarized Light (the VS Code palette), in both system modes. */
+:root {
+  color-scheme: light;
+  --bg: #fdf6e3;
+  --surface: #eee8d5;
+  --surface-alt: #fdf6e3;
+  --text: #657b83;
+  --strong: #586e75;
+  --dim: #93a1a1;
+  --border: #eee8d5;
+  --accent: #268bd2;
+  --accent-text: #fdf6e3;
+  --cta: #cb4b16;
+  --cta-text: #fdf6e3;
+  --danger: #dc322f;
+  --radius: 12px;
+  --space-surface: var(--surface);
+  --space-surface-alt: var(--surface-alt);
+  --space-muted: var(--dim);
+  --space-border: var(--border);
+  --space-accent: var(--accent);
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.01em;
+  color: var(--strong);
+}
